@@ -1,5 +1,3 @@
-#ifndef CREATE_TAR_C
-#define CREATE_TAR_C
 
 #include "create_tar.h"
 
@@ -190,4 +188,3 @@ bool make_tar(setup *options, list *file_names, char *prefix)
     return true;
 }
 
-#endif
