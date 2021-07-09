@@ -1,5 +1,4 @@
-#ifndef TAR_HEADER_C
-#define TAR_HEADER_C
+
 #include "tar_header.h"
 
 void number_to_string(size_t full_size, int number, char *buffer)
@@ -184,5 +183,3 @@ bool fill_header(header *file_header, struct stat *stats, char *current_file, in
     //print_header(file_header);
     return true;
 }
-
-#endif
