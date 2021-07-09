@@ -1,5 +1,4 @@
-#ifndef TEXT_LIST_C
-#define TEXT_LIST_C
+
 #include "text_list.h"
 
 int compare_items(const void *first, const void *second)
@@ -61,5 +60,3 @@ bool add_to_list(list *items_list, char *item)
     items_list->length++;
     return true;
 }
-
-#endif
