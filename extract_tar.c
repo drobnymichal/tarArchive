@@ -1,5 +1,3 @@
-#ifndef EXTRACT_TAR_C
-#define EXTRACT_TAR_C
 #include "extract_tar.h"
 
 int poww(int num, int power)
@@ -227,5 +225,3 @@ bool extract_tar(int tar_fd, bool report)
     free(file_head);
     return true;
 }
-
-#endif
